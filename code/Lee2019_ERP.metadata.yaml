@@ -1,0 +1,203 @@
+_dataset:
+  class: Lee2019_ERP
+  code: Lee2019-ERP
+  doi: 10.5524/100542
+  interval:
+  - 0.0
+  - 1.0
+  n_subjects: 54
+  paradigm: p300
+acquisition:
+  auxiliary_channels:
+    emg_channels: 4
+    has_emg: true
+  cap_manufacturer: Brain Products
+  channel_types:
+    eeg: 62
+    emg: 4
+  ground: AFz
+  hardware: BrainAmp
+  impedance_threshold_kohm: 10
+  line_freq: 60.0
+  montage: standard_1005
+  n_channels: 62
+  reference: nasion
+  sampling_rate: 1000.0
+  sensor_type: Ag/AgCl
+  sensors:
+  - AF3
+  - AF4
+  - AF7
+  - AF8
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - CP1
+  - CP2
+  - CP3
+  - CP4
+  - CP5
+  - CP6
+  - CPz
+  - Cz
+  - EMG1
+  - EMG2
+  - EMG3
+  - EMG4
+  - F10
+  - F3
+  - F4
+  - F7
+  - F8
+  - F9
+  - FC1
+  - FC2
+  - FC3
+  - FC4
+  - FC5
+  - FC6
+  - FT10
+  - FT9
+  - FTT10h
+  - FTT9h
+  - Fp1
+  - Fp2
+  - Fz
+  - O1
+  - O2
+  - Oz
+  - P1
+  - P2
+  - P3
+  - P4
+  - P7
+  - P8
+  - PO10
+  - PO3
+  - PO4
+  - PO9
+  - POz
+  - Pz
+  - T7
+  - T8
+  - TP10
+  - TP7
+  - TP8
+  - TP9
+  - TPP10h
+  - TPP8h
+  - TPP9h
+  - TTP7h
+  software: OpenBMI
+bci_application:
+  applications:
+  - speller
+  - communication
+  online_feedback: true
+cross_validation:
+  cv_method: training-test split
+  evaluation_type:
+  - within_session
+  - cross_session
+data_structure:
+  n_trials:
+    test: 2160
+    training: 1980
+  trials_context: 'Training: copy-spell ''NEURAL NETWORKS AND DEEP LEARNING'' (33 characters). Test: copy-spell ''PATTERN
+    RECOGNITION MACHINE LEARNING'' (36 characters). Each character received 5 sequences of 12 flashes (60 flashes total).'
+documentation:
+  contact_info:
+  - sw.lee@korea.ac.kr
+  - 'Tel: +82-2-3290-3197'
+  - 'Fax: +82-2-3290-3583'
+  country: KR
+  description: 'EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy'
+  doi: 10.1093/gigascience/giz002
+  institution: Korea University
+  institution_address: 145 Anam-ro, Seongbuk-gu, Seoul, 02841, Korea
+  institution_department: Department of Brain and Cognitive Engineering
+  investigators:
+  - Min-Ho Lee
+  - O-Yeon Kwon
+  - Yong-Jeong Kim
+  - Hong-Kyung Kim
+  - Young-Eun Lee
+  - John Williamson
+  - Siamac Fazli
+  - Seong-Whan Lee
+  keywords:
+  - EEG datasets
+  - brain-computer interface
+  - event-related potential
+  - steady-state visually evoked potential
+  - motor-imagery
+  - OpenBMI toolbox
+  - BCI illiteracy
+  license: GPL-3.0
+  publication_year: 2019
+  repository: GigaDB
+  senior_author: Seong-Whan Lee
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 2
+    Target: 1
+  feedback_type: visual
+  has_training_test_split: true
+  instructions: 'Subjects were asked to copy-spell given sentences by gazing at target characters on screen. In training:
+    ''NEURAL NETWORKS AND DEEP LEARNING'' (33 characters), in test: ''PATTERN RECOGNITION MACHINE LEARNING'' (36 characters).
+    Participants counted number of times each target character flashed.'
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: rc_speller
+  study_design: 36-symbol ERP row-column speller with random-set presentation and face stimuli, offline training and online
+    test phases
+  task_type: copy_spelling
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: p300
+  isi_ms: 135.0
+  n_repetitions: 5
+  n_targets: 36
+  soa_ms: 215.0
+participants:
+  age_max: 35
+  age_mean: 29.5
+  age_min: 24
+  bci_experience: mixed
+  gender:
+    female: 25
+    male: 29
+  handedness: right
+  health_status: healthy
+  n_subjects: 54
+  species: human
+performance:
+  accuracy_percent: 96.7
+  accuracy_std: 0.05
+  illiteracy_rate: 11.1
+preprocessing:
+  data_state: raw
+runs_per_session: 2
+sessions_per_subject: 2
+signal_processing:
+  classifiers:
+  - LDA
+  feature_extraction:
+  - Mean Amplitudes
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  type:
+  - Perception
