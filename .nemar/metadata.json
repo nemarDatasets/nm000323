@@ -1,0 +1,110 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Min-Ho Lee": {
+      "orcid": "0000-0002-5730-1715"
+    },
+    "O-Yeon Kwon": {
+      "orcid": "0000-0001-5498-0540"
+    },
+    "Yong-Jeong Kim": {
+      "orcid": "0000-0003-3038-4087"
+    },
+    "Hong-Kyung Kim": {
+      "orcid": "0000-0002-1786-2729"
+    },
+    "Young-Eun Lee": {
+      "orcid": "0000-0003-2610-7028"
+    },
+    "John Williamson": {
+      "orcid": "0000-0001-7883-9816"
+    },
+    "Siamac Fazli": {
+      "orcid": "0000-0003-3397-0647"
+    },
+    "Seong-Whan Lee": {
+      "orcid": "0000-0002-6249-4996"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5524/100542",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1093/gigascience/giz002",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000323",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000323",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    }
+  ],
+  "title": "Lee et al. 2019 (ERP) — EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy",
+  "license": "GPL-3.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "41.5 GB (217 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This EEG dataset comprises recordings from 54 healthy participants performing a P300-based copy-spelling task using a 36-symbol row-column speller paradigm. The dataset includes 62 EEG channels and 4 EMG channels sampled at 1000 Hz, with offline training and online test phases designed to investigate BCI illiteracy. The study achieved 96.7% accuracy and identified an 11.1% illiteracy rate among participants, providing a valuable resource for benchmarking brain-computer interface algorithms and understanding individual differences in BCI performance.",
+  "methods_description": "EEG data were acquired using a 62-channel BrainAmp system with Ag/AgCl sensors at 1000 Hz sampling rate, referenced to nasion with ground at AFz. Participants performed a copy-spelling task with visual feedback, counting target character flashes in a row-column speller paradigm. Training involved spelling 'NEURAL NETWORKS AND DEEP LEARNING' (33 characters) and testing involved 'PATTERN RECOGNITION MACHINE LEARNING' (36 characters), with each character receiving 5 sequences of 12 flashes. Inter-stimulus interval was 135 ms with stimulus onset asynchrony of 215 ms.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "BCI illiteracy"
+    },
+    {
+      "term": "speller paradigm"
+    },
+    {
+      "term": "motor imagery"
+    }
+  ],
+  "source_hash": "0389f5425ea7aaed859aa5960ad201d0bdfa45f9718120637bcf5561a304f8c0"
+}
