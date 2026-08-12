@@ -1,0 +1,555 @@
+{
+ "dataset": "nm000323",
+ "moabb_class": "Lee2019_ERP",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Lee2019_ERP.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2019-erp-data/gigadb-datasets/live/pub/10.5524/100001_101000/100542",
+ "license": "GPL-3.0",
+ "doi": "10.5524/100542",
+ "naming": "upstream_filenames_restored",
+ "n_files": 108,
+ "total_bytes": 99909771701,
+ "files": [
+  {
+   "file": "session1/s1/sess01_subj01_EEG_ERP.mat",
+   "bytes": 949889154,
+   "sha256": "8cb4217a6f72466448b8259bb8f072c25f81437c075b0619ea14686eea0848b2"
+  },
+  {
+   "file": "session1/s10/sess01_subj10_EEG_ERP.mat",
+   "bytes": 945318700,
+   "sha256": "f771fa396553fd51aebe4ddce2aeac9bb90cc8a7bd2eba4040b63d18a96215b6"
+  },
+  {
+   "file": "session1/s11/sess01_subj11_EEG_ERP.mat",
+   "bytes": 922182173,
+   "sha256": "bf6a848be2ab7afca8cfb9b2ac411f42259980e8ffa9d57360dcf7b7e9750834"
+  },
+  {
+   "file": "session1/s12/sess01_subj12_EEG_ERP.mat",
+   "bytes": 912734980,
+   "sha256": "bd9226470bd2bc1ec480c466bd9710d507aa1d2ede257fec1a06de10282edbc1"
+  },
+  {
+   "file": "session1/s13/sess01_subj13_EEG_ERP.mat",
+   "bytes": 956269212,
+   "sha256": "f9395cfed6ec16700bcff290c47ab82fdc15fdfad32ffec313c4bf2c621dda71"
+  },
+  {
+   "file": "session1/s14/sess01_subj14_EEG_ERP.mat",
+   "bytes": 921571570,
+   "sha256": "f4fcc18cd88e8db9ad7ef8114fd172a430fffaa0628498ae60e7025ba9ee9432"
+  },
+  {
+   "file": "session1/s15/sess01_subj15_EEG_ERP.mat",
+   "bytes": 931061766,
+   "sha256": "97d610681c1db62e9e675aa8b137ae733f4a32645ae6cac841c66b5669db94c0"
+  },
+  {
+   "file": "session1/s16/sess01_subj16_EEG_ERP.mat",
+   "bytes": 921292496,
+   "sha256": "cd53038bec5ae86c8a5dc82670350cb0979b41618519e67f6304539d3d0939d9"
+  },
+  {
+   "file": "session1/s17/sess01_subj17_EEG_ERP.mat",
+   "bytes": 995529745,
+   "sha256": "2eaa3bc11d83897a9bcb9f87d3c526338863ac3de708f53fbb4238f42fb578c5"
+  },
+  {
+   "file": "session1/s18/sess01_subj18_EEG_ERP.mat",
+   "bytes": 910180689,
+   "sha256": "01d9ac15ae44fc2b15d3db3057fcd3b8f0ab04ecded2311ae5a77f44a19e35a0"
+  },
+  {
+   "file": "session1/s19/sess01_subj19_EEG_ERP.mat",
+   "bytes": 911972138,
+   "sha256": "39c0d85514ec58746143a9691a05b37e6e7d0f5787b7abd69a5a055ffcf6a432"
+  },
+  {
+   "file": "session1/s2/sess01_subj02_EEG_ERP.mat",
+   "bytes": 934130926,
+   "sha256": "e911d4e268dfb166c90a3ee0ec420ccd7b03df53823fa3df369f0ebbd66b07d6"
+  },
+  {
+   "file": "session1/s20/sess01_subj20_EEG_ERP.mat",
+   "bytes": 918475678,
+   "sha256": "e60f762376e55e13ad80529b04a9ba8ca5ee168f508b7ced78038592c4cc82f6"
+  },
+  {
+   "file": "session1/s21/sess01_subj21_EEG_ERP.mat",
+   "bytes": 920289906,
+   "sha256": "828fa289ed705d4d4da17c7441a49928e96a8b5ae550dbc9b59af76592553c54"
+  },
+  {
+   "file": "session1/s22/sess01_subj22_EEG_ERP.mat",
+   "bytes": 910724259,
+   "sha256": "aa137589dd71de43e445ea263379869044e90454e505e5a8e80396e77fc3caae"
+  },
+  {
+   "file": "session1/s23/sess01_subj23_EEG_ERP.mat",
+   "bytes": 920123913,
+   "sha256": "477a07744d9e100f9b2d2339f921afb5f668bbf3bc3a87e836dbfa24eff8753e"
+  },
+  {
+   "file": "session1/s24/sess01_subj24_EEG_ERP.mat",
+   "bytes": 898715617,
+   "sha256": "a7e119b1372049712042af0fa5e5d4381946de0dfd259027278b8f67c458b479"
+  },
+  {
+   "file": "session1/s25/sess01_subj25_EEG_ERP.mat",
+   "bytes": 931478329,
+   "sha256": "465056030cd9ccc6bc9940dc4ef2c44aafa04d9eefec3887b53c9f7e25f72849"
+  },
+  {
+   "file": "session1/s26/sess01_subj26_EEG_ERP.mat",
+   "bytes": 932118836,
+   "sha256": "6eaabb8e35ff4fb645494ee83001fd89368f03e123eabb825a3013a52999fa67"
+  },
+  {
+   "file": "session1/s27/sess01_subj27_EEG_ERP.mat",
+   "bytes": 895636494,
+   "sha256": "5b0be06115d8b54b4cb79a60089fe436d4a0a2bcdc8023dc162e8203f8f04ac8"
+  },
+  {
+   "file": "session1/s28/sess01_subj28_EEG_ERP.mat",
+   "bytes": 878074323,
+   "sha256": "2591f8c0a1b549dc057d637d03517264993423d1d6c0f7d457b65095772c2e43"
+  },
+  {
+   "file": "session1/s29/sess01_subj29_EEG_ERP.mat",
+   "bytes": 903828948,
+   "sha256": "da1eb8231d94f8bd9136b0546b0ccefa01eeaad06fd6a8a0895941ed50be0fcf"
+  },
+  {
+   "file": "session1/s3/sess01_subj03_EEG_ERP.mat",
+   "bytes": 969785734,
+   "sha256": "b1dd15e1e40e5ad502ab53fbfac40322337ce70e14bda146279e9aeeb2da257b"
+  },
+  {
+   "file": "session1/s30/sess01_subj30_EEG_ERP.mat",
+   "bytes": 974187655,
+   "sha256": "b8257aac1eb510f5434eb3512e026255b3a0f50e8e055abeea9d5891fd774a1f"
+  },
+  {
+   "file": "session1/s31/sess01_subj31_EEG_ERP.mat",
+   "bytes": 882582072,
+   "sha256": "e9f43612b650f1d889213b2cd724615b736f878324432ac7ddb6325d1bdcfbdb"
+  },
+  {
+   "file": "session1/s32/sess01_subj32_EEG_ERP.mat",
+   "bytes": 941145578,
+   "sha256": "6da7569e7c7b5924247add662a5fad6e82734323ead86a91687403b5e9e2b84c"
+  },
+  {
+   "file": "session1/s33/sess01_subj33_EEG_ERP.mat",
+   "bytes": 926761913,
+   "sha256": "21f09ebb43a49508d2cde011fdf180552c5c3619d18cf1f602a3a021d98221f1"
+  },
+  {
+   "file": "session1/s34/sess01_subj34_EEG_ERP.mat",
+   "bytes": 934741192,
+   "sha256": "5c3be1d413d9f6bfd1164a45b84af5672b8ff56109f4e38855d59e4c9a2b02e9"
+  },
+  {
+   "file": "session1/s35/sess01_subj35_EEG_ERP.mat",
+   "bytes": 929605156,
+   "sha256": "a1bc7f02113cb1a49ed30c465cc8a3355a3646c1d1d114e65c894eca4804fd1b"
+  },
+  {
+   "file": "session1/s36/sess01_subj36_EEG_ERP.mat",
+   "bytes": 949724339,
+   "sha256": "62262fae9ae786a80cd00d0834d8a670db6e1e57868fc3a34556468eba2d2942"
+  },
+  {
+   "file": "session1/s37/sess01_subj37_EEG_ERP.mat",
+   "bytes": 889313274,
+   "sha256": "542405e6f5223738ac4052e029b81a23e98e7f88cb1c699a829b016c92be75a1"
+  },
+  {
+   "file": "session1/s38/sess01_subj38_EEG_ERP.mat",
+   "bytes": 937874841,
+   "sha256": "aebe48287e04e1f95dd9fced3fd0a7044c919d7dbfaccee4a4835ad51c3a6e0e"
+  },
+  {
+   "file": "session1/s39/sess01_subj39_EEG_ERP.mat",
+   "bytes": 920998064,
+   "sha256": "1b7590ebc402a0b7040250a1c06e63d3ebe5f60a53a489ffa0e066df3a850649"
+  },
+  {
+   "file": "session1/s4/sess01_subj04_EEG_ERP.mat",
+   "bytes": 898916537,
+   "sha256": "5d5398286841fb0a79009ace6cb9e8d12c19d4770536d150960c5548d465f6a2"
+  },
+  {
+   "file": "session1/s40/sess01_subj40_EEG_ERP.mat",
+   "bytes": 910593061,
+   "sha256": "844b71bd47c9eea90d0e2df6914e3b2293b1f1a351b5e376bd494f557f7b4a95"
+  },
+  {
+   "file": "session1/s41/sess01_subj41_EEG_ERP.mat",
+   "bytes": 912806099,
+   "sha256": "f6c6308321ac9e08c63b87d073ce0fd34be519ca396824839562af721c6650b9"
+  },
+  {
+   "file": "session1/s42/sess01_subj42_EEG_ERP.mat",
+   "bytes": 929037618,
+   "sha256": "364ee519dc98a2c3732b0b28388408240c8148d06db950143d57245c348b81c4"
+  },
+  {
+   "file": "session1/s43/sess01_subj43_EEG_ERP.mat",
+   "bytes": 943343250,
+   "sha256": "fe83a3555855c8fb7b0e7f9204f93defae2e5ae9f4732e4c7470e961c7c37c48"
+  },
+  {
+   "file": "session1/s44/sess01_subj44_EEG_ERP.mat",
+   "bytes": 925331383,
+   "sha256": "65ee1c2be950ac00c3644b93918918f8b819590b8a62bb0e3e101161547df1a1"
+  },
+  {
+   "file": "session1/s45/sess01_subj45_EEG_ERP.mat",
+   "bytes": 913984124,
+   "sha256": "d908ad0d6a58d25592e138791a0bd14f002cc971d7f4029c392522c6d8579536"
+  },
+  {
+   "file": "session1/s46/sess01_subj46_EEG_ERP.mat",
+   "bytes": 950571673,
+   "sha256": "27c0c7941d89a878425da6b0f9437921bd185f5806428b675fb5c5c0527ac145"
+  },
+  {
+   "file": "session1/s47/sess01_subj47_EEG_ERP.mat",
+   "bytes": 921904484,
+   "sha256": "011b8af3e2060c242a321641b748985ef53c60a79e655c6becaf389504bde6fc"
+  },
+  {
+   "file": "session1/s48/sess01_subj48_EEG_ERP.mat",
+   "bytes": 914135657,
+   "sha256": "f28f56f16f462e019c79615355538db55cae7dcd097bdd1e23d398929dcc5458"
+  },
+  {
+   "file": "session1/s49/sess01_subj49_EEG_ERP.mat",
+   "bytes": 919085390,
+   "sha256": "5a6e581aa51c0eedff44b977206c1d7d4acc51c837f14e0fed19f04eeb382d48"
+  },
+  {
+   "file": "session1/s5/sess01_subj05_EEG_ERP.mat",
+   "bytes": 964605803,
+   "sha256": "42ebce88836da1bcd4ddb806a2432095d9681fa3ce20233188c6753036eabd47"
+  },
+  {
+   "file": "session1/s50/sess01_subj50_EEG_ERP.mat",
+   "bytes": 875932609,
+   "sha256": "5f3021ad297ab483c740584fd0c90163d9be081e2e89fba7a17d648fcc0cee43"
+  },
+  {
+   "file": "session1/s51/sess01_subj51_EEG_ERP.mat",
+   "bytes": 892594983,
+   "sha256": "33d100d83beff1d594d6e58c625b8b7d48e7baf7baaaf8e0cab4427ec3619019"
+  },
+  {
+   "file": "session1/s52/sess01_subj52_EEG_ERP.mat",
+   "bytes": 913831207,
+   "sha256": "43d21c209fd250cb3df3f219bb664a5d8ad94e069099d3c7d798756e0c4a0737"
+  },
+  {
+   "file": "session1/s53/sess01_subj53_EEG_ERP.mat",
+   "bytes": 916562288,
+   "sha256": "1ff785d93823476293e1a56f4d62b7aaeca0b4c27fd9fd72832d25401ee2a407"
+  },
+  {
+   "file": "session1/s54/sess01_subj54_EEG_ERP.mat",
+   "bytes": 979771660,
+   "sha256": "05c6fbab554f13dc1b23ba091b29b867bef4161ed7f1411f7614e07340854208"
+  },
+  {
+   "file": "session1/s6/sess01_subj06_EEG_ERP.mat",
+   "bytes": 954967887,
+   "sha256": "4fc814caa50366d23084d5d04d96cecfd56c5cca1cb2ad3d8be9659d2a9f7ddc"
+  },
+  {
+   "file": "session1/s7/sess01_subj07_EEG_ERP.mat",
+   "bytes": 907526558,
+   "sha256": "686f54694eefd57d93b95e2e01957f2616b031755d286d7b89f9a549dabcf0f4"
+  },
+  {
+   "file": "session1/s8/sess01_subj08_EEG_ERP.mat",
+   "bytes": 962880214,
+   "sha256": "a5bf6e676f4f90ecc44976629e99c204dbfb764582495cf37b57f4afb9143430"
+  },
+  {
+   "file": "session1/s9/sess01_subj09_EEG_ERP.mat",
+   "bytes": 912179984,
+   "sha256": "9963921a9996743ef5143d3a1555089d2d60a69fbb68ea980f5f11e1d6c1f471"
+  },
+  {
+   "file": "session2/s1/sess02_subj01_EEG_ERP.mat",
+   "bytes": 949622676,
+   "sha256": "6a1e775868b4e77518b91b32696ede5103766694577ef03de466632441e8b217"
+  },
+  {
+   "file": "session2/s10/sess02_subj10_EEG_ERP.mat",
+   "bytes": 937242173,
+   "sha256": "1479e82842d9868b00afe9a8080a770a05db53872354fab5dde1d75a00d5c623"
+  },
+  {
+   "file": "session2/s11/sess02_subj11_EEG_ERP.mat",
+   "bytes": 909394790,
+   "sha256": "db9a93fabaa4431f14bae606eec68480efa0d4691563e3e430d024c23a440dc2"
+  },
+  {
+   "file": "session2/s12/sess02_subj12_EEG_ERP.mat",
+   "bytes": 910409444,
+   "sha256": "ff3228e46e25c9771cc05b6ebfdec9b8c35ec47095874bf1b95fce0e95439b5f"
+  },
+  {
+   "file": "session2/s13/sess02_subj13_EEG_ERP.mat",
+   "bytes": 931639290,
+   "sha256": "8b7168eb13b3172a17b073a66aca75de09d53652a24857fe9ad86f96e9cd37cb"
+  },
+  {
+   "file": "session2/s14/sess02_subj14_EEG_ERP.mat",
+   "bytes": 937469539,
+   "sha256": "a40bce073c334d3ccf21b2892c470a48239a7db9bd563a2d5e5c326e40ad9a71"
+  },
+  {
+   "file": "session2/s15/sess02_subj15_EEG_ERP.mat",
+   "bytes": 927850624,
+   "sha256": "6d36a6a401e104f93193cedad5bad4f48fc40ee6df4a7e0f114967320c06781d"
+  },
+  {
+   "file": "session2/s16/sess02_subj16_EEG_ERP.mat",
+   "bytes": 908719865,
+   "sha256": "913702f45300728b0368862ac6b827339ffc7a036054c12acae6c9520a8a2414"
+  },
+  {
+   "file": "session2/s17/sess02_subj17_EEG_ERP.mat",
+   "bytes": 982033936,
+   "sha256": "03bd6a95c9ceca0dd99186e1f085b8731aa51edff54e431aa07ab859de2bb482"
+  },
+  {
+   "file": "session2/s18/sess02_subj18_EEG_ERP.mat",
+   "bytes": 886968611,
+   "sha256": "89d259a1941d3f5efc5986f783fc4f1889d4671404ee94af930881e94c025954"
+  },
+  {
+   "file": "session2/s19/sess02_subj19_EEG_ERP.mat",
+   "bytes": 900923504,
+   "sha256": "9ad068928c9ea4ba7de9a9e0fe970e362a3b5aeb89eef2415ae343d75d3aac54"
+  },
+  {
+   "file": "session2/s2/sess02_subj02_EEG_ERP.mat",
+   "bytes": 919848301,
+   "sha256": "37f8779e527c9f0da7974c3a4ec60ea869246127795e83befe702959f76eebf4"
+  },
+  {
+   "file": "session2/s20/sess02_subj20_EEG_ERP.mat",
+   "bytes": 938494203,
+   "sha256": "23c1452332f6836f1fbd7c5269de5ad4a7f729e6a95dc1aae6c1ba50729fae78"
+  },
+  {
+   "file": "session2/s21/sess02_subj21_EEG_ERP.mat",
+   "bytes": 917505228,
+   "sha256": "18667c426102994642c7f23141c68615094e1cf31c8aac7638dd3275f98ae114"
+  },
+  {
+   "file": "session2/s22/sess02_subj22_EEG_ERP.mat",
+   "bytes": 919108905,
+   "sha256": "f350a0d65de219fb94e06d9430a0dbdce86829648562022ac6b685fa3afb0938"
+  },
+  {
+   "file": "session2/s23/sess02_subj23_EEG_ERP.mat",
+   "bytes": 921191668,
+   "sha256": "7fa0564e6fa142d2358353196d3feebe93b47a7b37cda2a536f94019025b7496"
+  },
+  {
+   "file": "session2/s24/sess02_subj24_EEG_ERP.mat",
+   "bytes": 886186180,
+   "sha256": "609a0b46d1aed1b2dd3b20eb75f8f45202d2eed9f9f91ae2eb9eac8b5e4a5023"
+  },
+  {
+   "file": "session2/s25/sess02_subj25_EEG_ERP.mat",
+   "bytes": 914418661,
+   "sha256": "d4077280cdcf15c863fe46d92182b748b962ec36c9ddbff1c1b20869e57d41bb"
+  },
+  {
+   "file": "session2/s26/sess02_subj26_EEG_ERP.mat",
+   "bytes": 913192282,
+   "sha256": "87eb4e381adc8a80b5dffd83230be28e78621d1ec25e85937da3dad4e2eb9a52"
+  },
+  {
+   "file": "session2/s27/sess02_subj27_EEG_ERP.mat",
+   "bytes": 890478446,
+   "sha256": "a0e29f497ef26bd3ee676247b2cc9ff2859cebfcd8882ed7ee1235f45b6f77c8"
+  },
+  {
+   "file": "session2/s28/sess02_subj28_EEG_ERP.mat",
+   "bytes": 871455339,
+   "sha256": "061105d4a2eae77eb33a702799a3031a4a7b2abefa7446c505e3dba37c3f02d5"
+  },
+  {
+   "file": "session2/s29/sess02_subj29_EEG_ERP.mat",
+   "bytes": 894425848,
+   "sha256": "217712454b81152ea07a32e659ecb84c0753058aa385ee2cecb5913401f7274d"
+  },
+  {
+   "file": "session2/s3/sess02_subj03_EEG_ERP.mat",
+   "bytes": 978061225,
+   "sha256": "38c7c876d9d424a0f1fe4572125db9de3dedecd3d0c0278279686a6933084a2a"
+  },
+  {
+   "file": "session2/s30/sess02_subj30_EEG_ERP.mat",
+   "bytes": 947702798,
+   "sha256": "3748d303190fa432b1b7d2e304d77a6c008b2c4270fcfa3972067381330dd2f8"
+  },
+  {
+   "file": "session2/s31/sess02_subj31_EEG_ERP.mat",
+   "bytes": 887557355,
+   "sha256": "3cab496490394901716a4ae9f8659de8b9f10db9751456ae896b1b41d0fb4a4a"
+  },
+  {
+   "file": "session2/s32/sess02_subj32_EEG_ERP.mat",
+   "bytes": 963672504,
+   "sha256": "05148298b7b59494d6e0363c6ff55cc24eb19c90e8aa11c3d28f2feade29c429"
+  },
+  {
+   "file": "session2/s33/sess02_subj33_EEG_ERP.mat",
+   "bytes": 930441500,
+   "sha256": "39fdb1c494a6f26b62013c9978f0e3b88dece1b1e730ccfee4938c51ef7da090"
+  },
+  {
+   "file": "session2/s34/sess02_subj34_EEG_ERP.mat",
+   "bytes": 935780094,
+   "sha256": "cb04c3ca6beb1af0473829011795fa81e291c7029e47994e8e288f085b375adf"
+  },
+  {
+   "file": "session2/s35/sess02_subj35_EEG_ERP.mat",
+   "bytes": 962769847,
+   "sha256": "ad8169a63916ece2994c9b92595fe9d454e0787fc45c779d20c2709e672b590e"
+  },
+  {
+   "file": "session2/s36/sess02_subj36_EEG_ERP.mat",
+   "bytes": 924684527,
+   "sha256": "f59b432227f9b072330663efbe7b381e7a117e690121d2f30faf91aaaccbdc09"
+  },
+  {
+   "file": "session2/s37/sess02_subj37_EEG_ERP.mat",
+   "bytes": 885792487,
+   "sha256": "3a2bb297513c265d94cad52035c78f1b20ed3b09776a8e26a1fb5fcb53ab2804"
+  },
+  {
+   "file": "session2/s38/sess02_subj38_EEG_ERP.mat",
+   "bytes": 927864731,
+   "sha256": "d03420b591b7e857e87001b7d934a21411e6c483c0169be3ca6e6cea7c0ae140"
+  },
+  {
+   "file": "session2/s39/sess02_subj39_EEG_ERP.mat",
+   "bytes": 922700539,
+   "sha256": "3d74571c13e68a46a571a2cd4b49a2f5d44383ecc96d3e0ff5a81da791b830bf"
+  },
+  {
+   "file": "session2/s4/sess02_subj04_EEG_ERP.mat",
+   "bytes": 891580019,
+   "sha256": "a4db558b21b88410b06aa01191ca93468ad47034fef6489ef7ca411804549155"
+  },
+  {
+   "file": "session2/s40/sess02_subj40_EEG_ERP.mat",
+   "bytes": 923549807,
+   "sha256": "2d3499e86b718c45a4eaafb83e41aee3728abf2b79619981858afdc12670bb91"
+  },
+  {
+   "file": "session2/s41/sess02_subj41_EEG_ERP.mat",
+   "bytes": 910537510,
+   "sha256": "7d5dd7efe9c3c96a1aba80cf7fd9e89b62a20455e200c88f6eb65a5e27473ffb"
+  },
+  {
+   "file": "session2/s42/sess02_subj42_EEG_ERP.mat",
+   "bytes": 946550602,
+   "sha256": "238ce3fe544540fdcd35bc62b47bc3e9c6e12d381885aac10f4c9497f0c89a1e"
+  },
+  {
+   "file": "session2/s43/sess02_subj43_EEG_ERP.mat",
+   "bytes": 913929158,
+   "sha256": "dfd42554a6c27a4dbff5a9d1f1e8494b5284f25b3c2a638a05195e8ef8b2af92"
+  },
+  {
+   "file": "session2/s44/sess02_subj44_EEG_ERP.mat",
+   "bytes": 906082325,
+   "sha256": "87cad68bde42a81904942f793bf6b64721dcdadfa0f9d4760ac38b2cc8afbc71"
+  },
+  {
+   "file": "session2/s45/sess02_subj45_EEG_ERP.mat",
+   "bytes": 905199050,
+   "sha256": "9081ecfec642dd64930cc624fde4a3523092ecf36a1db92f2945ede689833f94"
+  },
+  {
+   "file": "session2/s46/sess02_subj46_EEG_ERP.mat",
+   "bytes": 958112919,
+   "sha256": "df4acc021841efc969b5ce479c8ebae748b3c292f5c883e75314762f367658e3"
+  },
+  {
+   "file": "session2/s47/sess02_subj47_EEG_ERP.mat",
+   "bytes": 920023998,
+   "sha256": "33804bc9c1c68ba90707404453bdae64939445e7cea4d5c3e55097d634e67556"
+  },
+  {
+   "file": "session2/s48/sess02_subj48_EEG_ERP.mat",
+   "bytes": 919465569,
+   "sha256": "cfc397eae071f5b3b2e3967ea8617226579e3e444b27adc1dab923f35ac9b222"
+  },
+  {
+   "file": "session2/s49/sess02_subj49_EEG_ERP.mat",
+   "bytes": 940685413,
+   "sha256": "995e30ebc5261b6f81468121c37a787102276e9d6fc7b7a44b8184c37c7bfe7c"
+  },
+  {
+   "file": "session2/s5/sess02_subj05_EEG_ERP.mat",
+   "bytes": 966469593,
+   "sha256": "e69d40acdd4c2a49197ca0950bc92dab571bf1dcad12d00f94621e8708a74f10"
+  },
+  {
+   "file": "session2/s50/sess02_subj50_EEG_ERP.mat",
+   "bytes": 942711696,
+   "sha256": "9e375b5a8af61c15c6155bdbe5fef80d12d3114bb066eaa825b66fe93bb3e5e6"
+  },
+  {
+   "file": "session2/s51/sess02_subj51_EEG_ERP.mat",
+   "bytes": 914276809,
+   "sha256": "c63f471cdc2a7797bd8e97fee0fdf6b722928c2bd431902a80eeb70dc5132093"
+  },
+  {
+   "file": "session2/s52/sess02_subj52_EEG_ERP.mat",
+   "bytes": 920914595,
+   "sha256": "2fca81bc383c465db6950d43adb8ff5c74f78c937497ffb6a52e817798e72df1"
+  },
+  {
+   "file": "session2/s53/sess02_subj53_EEG_ERP.mat",
+   "bytes": 940603740,
+   "sha256": "be7ff4c5145052d71452224a7b5276106cf4c010d318358f1222c94ef2fb2929"
+  },
+  {
+   "file": "session2/s54/sess02_subj54_EEG_ERP.mat",
+   "bytes": 932434977,
+   "sha256": "ff01d48dfca8e291ddd8575a9dd2570b15bb9a00764e6edb3bc0c97d794e405a"
+  },
+  {
+   "file": "session2/s6/sess02_subj06_EEG_ERP.mat",
+   "bytes": 953789341,
+   "sha256": "5e04de50f9101ea825beab0c9aafb8b6d20e9e363273c9868fd9a05bcce5672b"
+  },
+  {
+   "file": "session2/s7/sess02_subj07_EEG_ERP.mat",
+   "bytes": 927905676,
+   "sha256": "eab2aaf6796ea687ccf1543bdd1b9758c412ae05bebfefefe1baa43caa5d4bd1"
+  },
+  {
+   "file": "session2/s8/sess02_subj08_EEG_ERP.mat",
+   "bytes": 930164348,
+   "sha256": "3002b7f190308ecd799786fb7faee0bdcfd2e432f712a1fb4ef80ef2a64ed963"
+  },
+  {
+   "file": "session2/s9/sess02_subj09_EEG_ERP.mat",
+   "bytes": 910295297,
+   "sha256": "6a4b055f5c157d75cf1499fafde9c9310f2cec87774093f2402ed843e64a8acc"
+  }
+ ]
+}
