@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Lee et al. 2019 (ERP) — EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy",
-  "description": "This EEG dataset comprises recordings from 54 healthy participants performing a P300-based copy-spelling task using a 36-symbol row-column speller paradigm. The dataset includes 62 EEG channels and 4 EMG channels sampled at 1000 Hz, with offline training and online test phases designed to investigate BCI illiteracy. The study achieved 96.7% accuracy and identified an 11.1% illiteracy rate among participants, providing a valuable resource for benchmarking brain-computer interface algorithms and understanding individual differences in BCI performance.",
-  "methods_description": "EEG data were acquired using a 62-channel BrainAmp system with Ag/AgCl sensors at 1000 Hz sampling rate, referenced to nasion with ground at AFz. Participants performed a copy-spelling task with visual feedback, counting target character flashes in a 36-symbol row-column speller with random-set presentation. Training involved spelling 'NEURAL NETWORKS AND DEEP LEARNING' (33 characters) and testing involved 'PATTERN RECOGNITION MACHINE LEARNING' (36 characters), with each character receiving 5 sequences of 12 flashes. Inter-stimulus interval was 135 ms with stimulus onset asynchrony of 215 ms.",
+  "description": "This dataset comprises EEG recordings from 54 healthy participants performing a P300-based brain-computer interface copy-spelling task using a 36-symbol row-column speller paradigm. The study investigates BCI illiteracy through offline training and online testing phases, with 62 EEG channels and 4 EMG auxiliary channels sampled at 1000 Hz. The dataset includes both training data (1980 trials) and test data (2160 trials) with visual feedback, achieving 96.7% accuracy and identifying an 11.1% BCI illiteracy rate among participants.",
+  "methods_description": "EEG data were acquired using a BrainAmp system with 62 channels (Ag/AgCl sensors, standard 1005 montage) sampled at 1000 Hz, referenced to nasion with ground at AFz. Participants performed a copy-spelling task with a 36-symbol row-column speller using random-set presentation and face stimuli. Training involved spelling 'NEURAL NETWORKS AND DEEP LEARNING' (33 characters) and testing involved 'PATTERN RECOGNITION MACHINE LEARNING' (36 characters). Each character received 5 sequences of 12 flashes with an inter-stimulus interval of 135 ms and stimulus onset asynchrony of 215 ms. Classification used Linear Discriminant Analysis with mean amplitude feature extraction.",
   "license": "GPL-3.0",
   "dataset_type": "derivative",
   "authors": {
@@ -40,7 +40,7 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "Event-Related Potentials, P300",
+      "term": "Event-Related Potentials",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
@@ -104,5 +104,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "142b94f1ca5a29c0dfb7bf541e7ed38321823669116f9d2b7455b6fb9563b82c"
+  "source_hash": "2730f9ab4f56ec5a6f19a5d7a0be9ae6233b148f52c943fcfeaa4d13c7488f6c"
 }
