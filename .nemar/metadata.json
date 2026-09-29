@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Lee et al. 2019 (ERP) — EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy",
-  "description": "This EEG dataset comprises recordings from 54 healthy participants performing a P300-based brain-computer interface speller task, designed to investigate BCI illiteracy and individual differences in BCI performance. The dataset includes 62 EEG channels and 4 EMG channels sampled at 1000 Hz during copy-spelling tasks with offline training and online testing phases. Participants performed a 36-symbol row-column speller task, spelling 'NEURAL NETWORKS AND DEEP LEARNING' (33 characters) during training and 'PATTERN RECOGNITION MACHINE LEARNING' (36 characters) during testing. It serves as a benchmark resource for evaluating P300-based BCI paradigms and understanding factors contributing to variable BCI performance across users.",
-  "methods_description": "EEG data were acquired using a BrainAmp system with 62 Ag/AgCl electrodes in a standard 1005 montage, referenced to nasion with ground at AFz. Sampling rate was 1000 Hz with a 60 Hz line frequency. Participants performed a 36-symbol row-column speller task with visual feedback, counting target character flashes. Training involved spelling 'NEURAL NETWORKS AND DEEP LEARNING' (33 characters) and testing involved 'PATTERN RECOGNITION MACHINE LEARNING' (36 characters), with each character receiving 5 sequences of 12 flashes. Inter-stimulus interval was 135 ms with stimulus onset asynchrony of 215 ms.",
+  "description": "EEG recordings from 54 healthy participants performing a 36-symbol ERP (P300) row-column speller task with face stimuli, across two sessions with offline training and online copy-spelling test phases. The dataset is part of a larger collection covering three BCI paradigms (ERP, motor imagery, SSVEP) and was used to investigate BCI illiteracy. It includes 62 EEG channels and 4 EMG channels sampled at 1000 Hz.",
+  "methods_description": "EEG was recorded with a BrainAmp amplifier and Ag/AgCl electrodes (62 channels, 1000 Hz, ground AFz, impedance below 10 kOhm) using OpenBMI software. Participants copy-spelled sentences by gazing at target characters and counting their flashes. Each character received 5 sequences of 12 flashes, with a 135 ms inter-stimulus interval and 215 ms stimulus onset asynchrony. The training phase used 33 characters and the test phase used 36 characters.",
   "license": "GPL-3.0",
   "dataset_type": "derivative",
   "authors": {
@@ -40,28 +40,19 @@
       "term": "brain-computer interface"
     },
     {
+      "term": "event-related potential"
+    },
+    {
       "term": "P300"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "speller"
     },
     {
       "term": "BCI illiteracy"
     },
     {
-      "term": "speller paradigm"
-    },
-    {
-      "term": "copy-spelling"
-    },
-    {
-      "term": "row-column speller"
-    },
-    {
-      "term": "OpenBMI toolbox"
+      "term": "OpenBMI"
     }
   ],
   "related_identifiers": [
@@ -102,7 +93,7 @@
     "eeg"
   ],
   "sizes": [
-    "141.4 GB (325 files)"
+    "132 GB (325 files)"
   ],
   "formats": [
     ".bdf",
