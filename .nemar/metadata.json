@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Lee et al. 2019 (ERP) — EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy",
-  "description": "EEG recordings from 54 healthy participants performing a 36-symbol ERP (P300) row-column speller task with face stimuli, across two sessions with offline training and online copy-spelling test phases. The dataset is part of a larger collection covering three BCI paradigms (ERP, motor imagery, SSVEP) and was used to investigate BCI illiteracy. It includes 62 EEG channels and 4 EMG channels sampled at 1000 Hz.",
-  "methods_description": "EEG was recorded with a BrainAmp amplifier and Ag/AgCl electrodes (62 channels, 1000 Hz, ground AFz, impedance below 10 kOhm) using OpenBMI software. Participants copy-spelled sentences by gazing at target characters and counting their flashes. Each character received 5 sequences of 12 flashes, with a 135 ms inter-stimulus interval and 215 ms stimulus onset asynchrony. The training phase used 33 characters and the test phase used 36 characters.",
+  "description": "EEG recordings from 54 healthy participants performing a 36-symbol ERP (P300) row-column speller task with face stimuli, across two sessions with offline training and online copy-spelling test phases. Data were recorded with 62 EEG channels and 4 EMG channels at 1000 Hz. The dataset is one of three BCI paradigms (ERP, SSVEP, motor imagery) released with the OpenBMI toolbox to investigate BCI illiteracy. This is a MOABB-generated BIDS conversion of the original GigaDB data (10.5524/100542).",
+  "methods_description": "EEG was recorded with a BrainAmp amplifier and Brain Products Ag/AgCl cap (62 EEG and 4 EMG channels, 1000 Hz, reference at nasion, ground AFz, impedance below 10 kOhm). Participants copy-spelled sentences by gazing at target characters in a random-set row-column speller with face stimuli (SOA 215 ms, ISI 135 ms, 5 sequences of 12 flashes per character), and counted target flashes. Training used 33 characters and the online test used 36 characters.",
   "license": "GPL-3.0",
   "dataset_type": "derivative",
   "authors": {
@@ -37,13 +37,15 @@
       "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "event-related potential"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "P300"
+    },
+    {
+      "term": "event-related potential"
     },
     {
       "term": "speller"
@@ -104,5 +106,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "01812b3fe4a3ebfe8fde857908e9d2aaf1c569e01522d69300d89591c72609e0"
+  "source_hash": "168c50ceeb0de0ccb6de1028eae5de32db2b5479b24db41a87f04b63cd18a748"
 }
